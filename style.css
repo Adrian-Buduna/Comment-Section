@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(243, 236, 236, 0.76);
+}
+.commentSection-cls{
+    font-size: 16px;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+.btnAdd-cls{
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90px;
+    height: 36px;
+    color: rgb(252, 252, 252);
+    font-size: 16px;
+    background-color: #33adc0fb;
+    transition: 0.25s;
+    margin-bottom: 4px;
+    margin-top: 24px;
+}
+.btnAdd-cls:hover{
+    background-color: #2996a7;
+}
+.commentName-cls{
+    font-size: 24px;
+    overflow-wrap: break-word;
+    width: 600px;
+    height: fit-content;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: -50px;;
+}
+.commentContent-cls{
+    font-size: 24px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    white-space: normal;
+    width: 601px;
+    height: fit-content;
+    margin-top: 24px;  
+    border: 1px solid #0000003b;  
+    border-radius: 0px 0px 8px 8px;
+}
+.commentfull-cls{
+    border: 1px solid #0000003b;    
+    margin-bottom: 24px;
+    transition: 0.25s;
+    margin-top: 12px;
+    border-radius: 8px;
+    width: 602px;
+}
+.commentfull-cls:hover{
+    box-shadow: 4px 4px 4px 2px rgb(91, 110, 139);   
+    border: 1px solid #00000080;  
+    margin-bottom: 32px; 
+    margin-top: 8px;
+}
+.textarea-cls{
+    font-size: 16px;
+    border: none;
+    width: 600px;
+    height: 160px;
+    border-radius: 8px;
+}
+.add-cls{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.commentDate-cls{
+    font-style: italic;
+    margin-bottom: -4px;
+}
+.likeBtn-cls{
+    display: flex;
+    position: relative;
+    left: 550px;
+    top: -3px;
+    color: #ffffffff;
+    background-color: #33adc0fb;
+    transition: 0.4s;
+    border-radius: 8px;
+    border: none;
+    width: 28px;
+    height: 20px;
+}
+.likeBtn-cls:hover{
+    color: #33adc0fb;
+    background-color: #ffffffff;
+}
+.likeNumber-cls{
+    display: flex;
+    position: relative;
+    left: 560px;
+    top: -20px;
+    font-weight: bold;
+    color: #2b9aacfb;
+}
